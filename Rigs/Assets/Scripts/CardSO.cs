@@ -8,7 +8,7 @@ public class CardSO : ScriptableObject
 {
 
     public new string name;
-    public Texture2D cardImage;
+    public Sprite cardImage;
     public int attack;
     public int threshold;
     public string [] traits = new string[] { };
